@@ -45,7 +45,7 @@ div#apr-01{
     width: 300px;
     height: 300px;
     margin:  10px 20px 10px 20px;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
 }
 div#apr-02{
@@ -55,7 +55,7 @@ div#apr-02{
     width: 300px;
     height: 300px;
     margin:  10px 20px 10px 20px;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
 }
 div#apr-03{
@@ -63,9 +63,9 @@ div#apr-03{
     border: 2px solid rgb(58, 58, 58);
     border-radius: 10px;
     width: 300px;
-    height: 290px;
+    height: 300px;
     margin:  10px 20px 10px 20px;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
 }
 
@@ -76,10 +76,11 @@ div#apr-03{
 }
 
 .btn-agendar{
-    background-color: #D07B74;
+    background-color: #881988ab;
     color: white;
+    text-align: center;
     padding: 10px;
     border-radius: 7px;
     border: 2px solid rgb(58, 58, 58);
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.363);
+    box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.363);
 }
