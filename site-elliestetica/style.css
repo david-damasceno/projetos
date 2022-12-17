@@ -2,11 +2,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
 
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
 body{
     margin: auto;
-    background-color: rgb(156, 156, 156);
+    background-color: rgba(0, 0, 0, 0.192);
     max-width: 1200px;
-    
 }
 
 nav{
@@ -20,14 +23,12 @@ nav a{
     display: inline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
     padding: 10px 20px 10px 20px;
     transition: .5s;
-    
 }
 
 nav a:hover{
-    background-color: rgba(78, 32, 119, 0.815);
+    background-color: rgba(78, 32, 119, 0.349);
 }
 
 section#apr-servicos{
@@ -38,35 +39,47 @@ section#apr-servicos{
 }
 
 div#apr-01{
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     border: 2px solid rgb(58, 58, 58);
     border-radius: 10px;
-    width: 280px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin:  10px 20px 10px 20px;
     padding: 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
 }
 div#apr-02{
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     border: 2px solid rgb(58, 58, 58);
     border-radius: 10px;
-    width: 280px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     margin:  10px 20px 10px 20px;
     padding: 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
 }
 div#apr-03{
-    font-family: 'Open Sans', sans-serif;
     text-align: center;
     border: 2px solid rgb(58, 58, 58);
     border-radius: 10px;
-    width: 280px;
-    height: 250px;
+    width: 300px;
+    height: 290px;
     margin:  10px 20px 10px 20px;
     padding: 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
+}
+
+.linha{
+    width: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+    margin: auto;
+}
+
+.btn-agendar{
+    background-color: #D07B74;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(58, 58, 58);
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.363);
 }
