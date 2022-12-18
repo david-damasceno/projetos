@@ -15,21 +15,19 @@ body{
 nav{
     background-color: #ffffff;
     text-align: right;
-    text-decoration: none;
-    max-width: 1200px;
+    padding-right: 20px;
 }
 
 nav a{
     display: inline-block;
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #000000;
     padding: 15px 20px 15px 20px;
     transition: .5s;
-    font-size: 16px;
 }
 
 nav a:hover{
-    background-color: rgba(78, 32, 119, 0.349);
+    background-color: #b6b6b6ad;
 }
 
 section#apr-servicos{
