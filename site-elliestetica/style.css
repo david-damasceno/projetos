@@ -13,7 +13,7 @@ body{
 }
 
 nav{
-    background-color: #190b3396;
+    background-color: #ffffff;
     text-align: right;
     text-decoration: none;
     max-width: 1200px;
@@ -23,9 +23,9 @@ nav a{
     display: inline-block;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 20px 20px 20px 20px;
+    padding: 15px 20px 15px 20px;
     transition: .5s;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 nav a:hover{
@@ -48,6 +48,7 @@ div#apr-01{
     margin:  10px 20px 10px 20px;
     padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
+    
 }
 div#apr-02{
     text-align: center;
@@ -58,6 +59,7 @@ div#apr-02{
     margin:  10px 20px 10px 20px;
     padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
+    
 }
 div#apr-03{
     text-align: center;
@@ -68,6 +70,7 @@ div#apr-03{
     margin:  10px 20px 10px 20px;
     padding: 10px 10px 0px 10px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.281);
+    
 }
 
 .linha{
@@ -84,4 +87,5 @@ div#apr-03{
     border-radius: 7px;
     border: 2px solid rgb(58, 58, 58);
     box-shadow: 3px 7px 7px rgba(0, 0, 0, 0.363);
+    cursor: pointer;
 }
